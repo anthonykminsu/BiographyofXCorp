@@ -1,4 +1,4 @@
-# X Corp Biography
+# The Biography of X Corp
 
 This project aims to provide a detailed biography of the company X corp. Ever since the rebranding of Twitter in July 24, 2023, the application has undergone major transformations within its features and digital communication space. Some of these changes, like the acquisition of Twitter by Elon Musk, received widespread attention and stirred debates beyond the tech community. These pivotal moments have reshaped the user experience, company direction, and overall perception of the brand in the public eye.
 
