@@ -2,13 +2,14 @@
 <html>
 
 <head>
-    <title>GEOG 328 LAB 02 EXAMPLE</title>
+    <title>X's Impact</title>
 
     <!-- Including the main.css file for styling -->
     <link rel="stylesheet" href="css/main.css">
 
     <!-- Including the Font Awesome CSS library for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -16,12 +17,12 @@
     <!-- Navigation bar -->
     <div class="topnav" id="myTopnav">
         <!-- Active link pointing to the index.html page -->
-        <a class="active" href="index.html">Abstract</a>
+        <a class="active" href="index.html">Home</a>
 
         <!-- Links to other sections -->
-        <a href="origins.html">Section 1</a>
-        <a href="section2.html">Section 2</a>
-        <a href="section3.html">Section 3</a>
+        <a href="origins.html">Origin</a>
+        <a href="section2.html">Impact</a>
+        <a href="section3.html">Features</a>
 
         <!-- Additional links -->
         <a href="see_also.html">See Also</a>
@@ -34,26 +35,47 @@
     </div>
 
     <!-- Page content -->
-    <a href="https://geography.washington.edu" target="new">UW Geography</a>
+    <img src="https://static.vecteezy.com/system/resources/previews/026/406/678/original/social-media-x-logo-black-and-white-free-vector.jpg" class="centered-image" style="width: 50%; height: auto;">
     <div class="content">
         <!-- Abstract section -->
-        This is the abstract section.
-        <br>
-        <br>
+        <p>
+            <strong>X corp</strong>, formerly known as Twitter, is an online social media platform that was founded
+            in July 2006. The service allows registered users to post text, images, and videos in a
+            <strong>social networking environment</strong>. Users can also interact with other users by liking,
+            reposting (known as retweeting), or replying to a public post. The platform also comes
+            with a direct messaging feature for all registered users. The company was founded by Jack Dorsey,
+            <a href="https://en.wikipedia.org/wiki/Evan_Williams_(Internet_entrepreneur)">Evan Williams</a>,
+            <a href="https://en.wikipedia.org/wiki/Biz_Stone">Biz Stone</a>, and <a href="https://en.wikipedia.org/wiki/Noah_Glass">Noah Glass</a>.
+            The company first launched in July 2006 in San Francisco, California under the name Twitter. Since then,
+            the platform has gained over <strong>300 million active users</strong> and to this day remains a large competitor within the social media space.
+        </p>
+        <!-- <br> -->
+        <!-- <br> -->
         <!-- Displaying the course cover image in a scaled size -->
-        Here is the course cover image in a scaled size:
+        <!-- Here is the course cover image in a scaled size:
+        <br> -->
+        <!-- <img src="img/cover.jpg" style="width: 100%; height: auto;"> -->
+        <!-- <br> -->
         <br>
-        <img src="img/cover.jpg" style="width: 100%; height: auto;">
-        <br>
-        <br>
-        <!-- Displaying the course cover image in its original size -->
-        Here is the course cover image in its original size:
-        <img src="img/cover.jpg">
     </div>
-
+<!-- Tab buttons -->
+<div class="tab">
+    <button class="tablinks" onclick="openImage(event, 'Image1')">Outside</button>
+    <button class="tablinks" onclick="openImage(event, 'Image2')">Office</button>
+    <button class="tablinks" onclick="openImage(event, 'Image3')">Sign</button>
+  </div>
+<!-- Tab content -->
+<div id="Image1" class="tabcontent">
+    <img src="https://cdn.vox-cdn.com/thumbor/xkl-sBMEsQM4OyY6CGfNBUdQCjg=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/13065787/EC_Collaboration_PChang_5385.jpg" alt="Image 1" style="width:100%">
+  </div>
+<div id="Image2" class="tabcontent">
+    <img src="https://www.builtinsf.com/sites/www.builtinsf.com/files/styles/og/public/2020-02/header-twitter-sf-office-tour.png" alt="Image 2" style="width:100%">
+  </div>
+<div id="Image3" class="tabcontent">
+    <img src="https://images.seattletimes.com/wp-content/uploads/2023/07/07242023_TWITTER_MUSK_1-NYT_152822.jpg?d=1536x1152" alt="Image 3" style="width:100%">
+  </div>
     <!-- Including the main.js file for JavaScript functionality -->
     <script src="js/main.js"></script>
-
 </body>
-
+        <!-- <a href="https://geography.washington.edu" target="new">UW Geography</a> -->
 </html>
